@@ -2,7 +2,6 @@
 
 ```
 System.out.print("Hello World");
-
 ```
 
 ### In code:
@@ -22,7 +21,6 @@ public class First {
     }
 
 }
-
 ```
 
 ### Use for print on same line
