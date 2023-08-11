@@ -352,5 +352,14 @@ System.out.println( ans );
 
 ```
 byte b = 5;
-byte b = b * 2;
+byte a = b * 2;
+
+// lossy conversion from int to byte (promotion in expression)
+```
+
+**Righht:**
+
+```
+byte b = 5;
+byte b = (byte) (b * 2);
 ```
