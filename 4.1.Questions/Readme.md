@@ -95,10 +95,10 @@ public class Solution3 {
 
 ### **Solution4:**
 
-- [x] int
-- [x] float
-- [x] byte
-- [ ] double
+- [] int
+- [] float
+- [] byte
+- [x] double
 
 ### **Solution5:**
 
