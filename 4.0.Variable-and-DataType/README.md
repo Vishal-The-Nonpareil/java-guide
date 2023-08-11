@@ -357,7 +357,7 @@ byte a = b * 2;
 // lossy conversion from int to byte (promotion in expression)
 ```
 
-**Righht:**
+**Right:**
 
 ```
 byte b = 5;
