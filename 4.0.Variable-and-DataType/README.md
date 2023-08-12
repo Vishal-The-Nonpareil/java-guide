@@ -51,9 +51,9 @@ Whose value can be change
 
 1, 2, 3, 4, 5....0...
 
-'a', 'b', 'c', 'd', 'A', 'B', 'C'....
+`a` `b` `c` `d` `A` `B` `C`....
 
-'@', '\*'
+`@` `*`
 
 We have to declare the value.
 
@@ -137,15 +137,15 @@ There
 
 ## Input In Java
 
-> next
-> nextLine
-> nextInt
-> nextByte
-> nextFloat
-> nextDouble
-> nextBoolean
-> nextShort
-> nextLong
+> `next`
+> `nextLine`
+> `nextInt`
+> `nextByte`
+> `nextFloat`
+> `nextDouble`
+> `nextBoolean`
+> `nextShort`
+> `nextLong`
 
 ### How to take input in java:
 
