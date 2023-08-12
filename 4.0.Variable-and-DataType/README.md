@@ -138,13 +138,21 @@ There
 ## Input In Java
 
 > `next`
+
 > `nextLine`
+
 > `nextInt`
+
 > `nextByte`
+
 > `nextFloat`
+
 > `nextDouble`
+
 > `nextBoolean`
+
 > `nextShort`
+
 > `nextLong`
 
 ### How to take input in java:
