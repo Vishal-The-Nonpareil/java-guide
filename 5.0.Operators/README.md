@@ -193,6 +193,7 @@ public class LogicalAND{
 ```
 
 **Output: **
+
 TRUE
 
 ### 2. `||` Logical OR Operator (Pipe Operator):-
@@ -215,6 +216,7 @@ public class LogicalOR{
 ```
 
 **Output: **
+
 False
 
 ### 3. `!` Logical NOT Operator:-
@@ -235,6 +237,7 @@ public class LogicalNOT{
 ```
 
 **Output: **
+
 False
 
 ## Operator Precedence
