@@ -245,7 +245,7 @@ For eg :–
 
 `int x = 3 * 4 - 1;`
 
-In the above example, the value of `x` will be **11**, not **9**.This happens because the precedence of `_`operator is higher than`-`operator. That is why the expression is evaluated as `(3*4) - 1` and not `3 * (4 - 1)` .
+In the above example, the value of `x` will be **11**, not **9**.This happens because the precedence of `*`operator is higher than`-`operator. That is why the expression is evaluated as `(3*4) - 1` and not `3 * (4 - 1)` .
 
 ## Operator Precedence Table
 
