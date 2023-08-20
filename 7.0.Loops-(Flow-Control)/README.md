@@ -171,10 +171,12 @@ do while loop is similar to while loop with only difference that it checks for c
 
 #### Syntax:
 
-`do{
+```
+do{
     // do something
 }
-while(condition)`
+while(condition);
+```
 
 ```
 public class doWhile {
