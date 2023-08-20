@@ -33,7 +33,7 @@ public class Solution4{
 
 # Solutions:-
 
-## 1. [Solution](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution1.java)
+## 1. [Solution1](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution1.java)
 
 ## 2. [Solution2](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution2.java)
 
