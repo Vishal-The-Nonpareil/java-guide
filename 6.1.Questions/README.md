@@ -33,4 +33,4 @@ public class Solution4{
 
 # Solutions:-
 
-## 1. [Solution](https://github.com/Vishal-The-Nonpareil/java-guide/tree/main/6.1.Questions/Solution1/)
+## 1. [Solution](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution1.java)
