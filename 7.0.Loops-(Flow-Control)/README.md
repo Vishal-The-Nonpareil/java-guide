@@ -18,9 +18,9 @@ A while loop is a control flow statement that allows code to be executed repeate
 
 #### Syntax:
 
-`while(condition){
+```while(condition){
     // do something
-}`
+}```
 
 #### Print Hello world 100 times:
 
