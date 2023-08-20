@@ -202,3 +202,4 @@ Switch(variable){
     default:
 }
 ```
+[Calculator using Switch case](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.0.Condition-Statement/CalculatorUsingSwitch.java)
