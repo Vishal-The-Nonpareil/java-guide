@@ -28,3 +28,9 @@ public class Solution4{
 ```
 
 ## 5. Write a Java program that takes a year from the user and print whether that year is a leap year or not
+
+---
+
+# Solutions:-
+
+## 1. [Solution](https://github.com/Vishal-The-Nonpareil/java-guide/tree/main/6.1.Questions/Solution1/)
