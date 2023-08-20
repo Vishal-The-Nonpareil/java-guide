@@ -14,7 +14,7 @@ public class Solution2{
 
 ## 3. Write a Java program to input week number (1-7) and print day of week name using switch case
 
-## 4. What will be the value of x & y in thefollowing program:
+## 4. What will be the value of x & y in the following program:
 
 ```
 public class Solution4{
@@ -34,3 +34,12 @@ public class Solution4{
 # Solutions:-
 
 ## 1. [Solution](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution1.java)
+
+## 2. [Solution2](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution2.java)
+
+## 3. [Solution2](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution3.java)
+
+## 4. [Solution2](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution4.java)
+
+## 5. [Solution2](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution5.java)
+
