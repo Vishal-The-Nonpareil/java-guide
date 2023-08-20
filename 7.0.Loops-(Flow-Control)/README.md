@@ -18,9 +18,11 @@ A while loop is a control flow statement that allows code to be executed repeate
 
 #### Syntax:
 
-```while(condition){
+```
+while(condition){
     // do something
-}```
+}
+```
 
 #### Print Hello world 100 times:
 
@@ -83,13 +85,13 @@ for loop provides a concise way of writing the loop structure. Unlike a while lo
 
 #### Syntax:
 
-`
+```
 for(initialisation;condition;updation){
 
     // do something
 
 }
-`
+```
 
 #### Print Hello world 100 times using fro loop:
 
