@@ -37,9 +37,9 @@ public class Solution4{
 
 ## 2. [Solution2](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution2.java)
 
-## 3. [Solution2](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution3.java)
+## 3. [Solution3](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution3.java)
 
-## 4. [Solution2](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution4.java)
+## 4. [Solution4](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution4.java)
 
-## 5. [Solution2](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution5.java)
+## 5. [Solution5](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/6.1.Questions/Solution5.java)
 
