@@ -10,7 +10,7 @@ public class NumIsPrimeOrNot {
         }
 
         boolean isPrime = true;
-        for (int i = 2; i <= Math.sqrt(n); i++) {
+        for (int i = 2; i <= Math.sqrt(n); i++) { // also i <= n-1 
             if (n % i == 0) { // n is multiple of i (i != 1 or n)
                 isPrime = false;
             }
