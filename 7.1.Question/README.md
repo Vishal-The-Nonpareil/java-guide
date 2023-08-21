@@ -46,10 +46,10 @@ public class Solution5 {
 
 Two Times
 
-## [Solution2]()
+## [Solution2](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/7.1.Question/Solution2.java)
 
-## [Solution3]()
+## [Solution3](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/7.1.Question/Solution3.java)
 
-## [Solution4]()
+## [Solution4](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/7.1.Question/Solution4.java)
 
-## [Solution5]()
+## [Solution5](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/7.1.Question/Solution5.java)
