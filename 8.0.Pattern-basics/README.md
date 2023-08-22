@@ -2,9 +2,9 @@
 
 ## Print Star Pattern
 
-1. No. or lines\
+1. No. or lines
 
-   a. outer loop --> 4 times
+   a. outer loop --> 5 times
 
 2. Number of times (i)
 
