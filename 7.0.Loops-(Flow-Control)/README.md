@@ -93,7 +93,7 @@ for(initialisation;condition;updation){
 }
 ```
 
-#### Print Hello world 100 times using fro loop:
+#### Print Hello world 100 times using for loop:
 
 ```
 public class forLoop1 {
@@ -124,7 +124,7 @@ public class PrintSquarePattern {
 
 #### Print reverse of a number:
 
-number = 132/10 == remove lastdegit
+number = 132/10 == remove lastdigit
 
 then, remainder = lastdigit;
 
