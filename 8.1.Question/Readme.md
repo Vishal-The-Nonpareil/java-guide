@@ -10,7 +10,7 @@
 *****
 ```
 
-## Inverted And Half-Pyramid Pattern:
+## 2. Inverted And Half-Pyramid Pattern:
 
 ```
      *
