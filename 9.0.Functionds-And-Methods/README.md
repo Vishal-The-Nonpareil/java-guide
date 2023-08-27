@@ -1,4 +1,4 @@
-# Functions/Methods
+# Finctions/Methods
 
 In Java, methods are reusable blocks of code that perform specific tasks. They are an essential part of Java programming and help to reduce code duplication and improve code maintainability. Methods can be called from anywhere in the program and can take in parameters, and return values.
 
@@ -31,7 +31,7 @@ public class FunctionCode {
         System.out.println("Hello World");
         System.out.println("Hello World");
         System.out.println("Hello World");
-        return;
+
     }
 
     public static void main(String[] args) {
@@ -72,31 +72,6 @@ public static int add(int a, int b) {
 int result = add(2, 3); // result is 5
 ```
 
-#### Method With Parameters: [View Code](https://github.com/Vishal-The-Nonpareil/java-guide/edit/main/9.0.Functionds-And-Methods/MethodWithParameter.java/)
-
-```
-import java.util.Scanner;
-
-public class MethodWithParameter {
-
-    public static void calSum(int num1, int num2) {
-
-        int sum = num1 + num2;
-        System.out.println("Sum is : " + sum);
-    }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        sc.close();
-
-        calSum(a, b);
-    }
-
-}
-```
-
 - In addition to traditional parameters, Java also supports varargs (variable-length arguments) that allow methods to take a variable number of arguments of the same type. The syntax for varargs is to use three dots (...) after the type of the last parameter, like this:
 
 ```
@@ -117,3 +92,42 @@ result = sum(4, 5, 6, 7); // result is 22
 ```
 
 Method parameters are an essential concept in Java, as they allow methods to take inputs and produce results based on those inputs.
+
+## Difference between parameters and arguments:
+
+> the terms "parameters" and "arguments" are often used interchangeably, but they have different meanings.
+
+> A parameter is a variable defined in a method's signature. It is a placeholder for the actual value that will be passed into the method when it is called.
+
+> An argument is the actual value that is passed to the method when it is called. It is the value that will be assigned to the parameter in the method.
+
+**For Example:**
+
+```
+public static void swap(int a, int b) {
+        // swap two vlaues
+        int temp = a;
+        a = b;
+        b = temp;
+}
+```
+
+In this method, num1 and num2 is a parameter. It is a variable that will hold the value of the argument passed to the method.
+
+- When we call the method, we pass an argument for the name parameter:
+
+```
+int a = 5;
+int b = 10;
+swap(a, b);
+```
+
+In this case, the argument is the `int a, int b`. It is passed to the swap method and assigned to the parameter.
+
+> In summary, parameters are the placeholders for values that will be passed to a method, while arguments are the actual values that are passed to the method.
+
+### Call by value:
+
+> The call stack is a crucial data structure that manages method execution and variable scope in Java. The stack depth, or the number of active method calls it can hold, is an important consideration when dealing with recursive functions or deep call chains.
+
+![Call stack](../src/Call-stack.png)
