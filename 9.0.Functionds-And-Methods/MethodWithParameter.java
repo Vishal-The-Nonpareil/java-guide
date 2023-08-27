@@ -2,10 +2,9 @@ import java.util.Scanner;
 
 public class MethodWithParameter {
 
-    public static void calSum(int num1, int num2) {
-
+    public static int calSum(int num1, int num2) {
         int sum = num1 + num2;
-        System.out.println("Sum is : " + sum);
+        return sum;
     }
 
     public static void main(String[] args) {
@@ -15,6 +14,7 @@ public class MethodWithParameter {
         sc.close();
 
         calSum(a, b);
+        System.out.println("Sum is : " + sum);
     }
 
 }
