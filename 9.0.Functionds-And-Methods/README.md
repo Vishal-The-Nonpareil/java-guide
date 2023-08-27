@@ -72,6 +72,8 @@ public static int add(int a, int b) {
 int result = add(2, 3); // result is 5
 ```
 
+#### Method With Parameters: [View Code](https://github.com/Vishal-The-Nonpareil/java-guide/edit/main/9.0.Functionds-And-Methods/MethodWithParameter.java/)
+
 - In addition to traditional parameters, Java also supports varargs (variable-length arguments) that allow methods to take a variable number of arguments of the same type. The syntax for varargs is to use three dots (...) after the type of the last parameter, like this:
 
 ```
