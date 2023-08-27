@@ -1,4 +1,4 @@
-# Finctions/Methods
+# Functions/Methods
 
 In Java, methods are reusable blocks of code that perform specific tasks. They are an essential part of Java programming and help to reduce code duplication and improve code maintainability. Methods can be called from anywhere in the program and can take in parameters, and return values.
 
