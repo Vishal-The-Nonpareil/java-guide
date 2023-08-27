@@ -25,6 +25,23 @@ access_modifier return_type method_name (parameter_list) {
 #### Example:
 
 ```
+public class FunctionCode {
+
+    public static void printHelloWorld() {
+        System.out.println("Hello World");
+        System.out.println("Hello World");
+        System.out.println("Hello World");
+
+    }
+
+    public static void main(String[] args) {
+        printHelloWorld();
+    }
+
+}
+```
+
+```
 public int sum(int a, int b) {
    int result = a + b;
    return result;
