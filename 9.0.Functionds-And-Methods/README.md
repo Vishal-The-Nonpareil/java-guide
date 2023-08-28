@@ -131,3 +131,31 @@ In this case, the argument is the `int a, int b`. It is passed to the swap metho
 > The call stack is a crucial data structure that manages method execution and variable scope in Java. The stack depth, or the number of active method calls it can hold, is an important consideration when dealing with recursive functions or deep call chains.
 
 ![Call stack](../src/Call-stack.png)
+
+## Get an understanding of method scope
+
+> In Java, method scope refers to the visibility and accessibility of variables defined within a method. The scope of a variable determines where it can be accessed and manipulated within a program.
+
+> A variable declared within a method has local scope and is only accessible within that method. It cannot be accessed or manipulated from outside the method. This means that if you define a variable within a method, it will not be visible or accessible in other methods or in the main program.
+
+> On the other hand, variables declared outside of a method have a wider scope and are accessible throughout the program. These are known as instance variables or class variables.
+
+> It is important to be aware of the scope of your variables, as accessing variables outside of their scope can result in errors and unpredictable behavior. In addition, using variables with a narrower scope can help to prevent naming conflicts and improve the readability of your code.
+
+- Here is an example of method scope in Java:
+
+```
+public class Example {
+   public void myMethod() {
+      int x = 10; // local variable with method scope
+      System.out.println(x);
+   }
+
+   public static void main(String[] args) {
+      Example e = new Example();
+      e.myMethod();
+   }
+}
+```
+
+In this example, the variable x is declared within the method myMethod() and has a local scope. It can only be accessed within the method and is not visible or accessible in the main() method. When the myMethod() is called, it prints the value of x, which is 10, to the console.
