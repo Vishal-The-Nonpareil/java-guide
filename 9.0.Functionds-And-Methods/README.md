@@ -14,13 +14,13 @@ access_modifier return_type method_name (parameter_list) {
 }
 ```
 
-- Access modifiers specify the level of access to the method. It can be public, private, protected, or default.
+> - Access modifiers specify the level of access to the method. It can be public, private, protected, or default.
 
-- Return type indicates the type of value the method returns. If the method does not return any value, the return type is void.
+> - Return type indicates the type of value the method returns. If the method does not return any value, the return type is void.
 
-- Method name is the name that is used to refer to the method throughout the program.
+> - Method name is the name that is used to refer to the method throughout the program.
 
-- Parameter list contains the input parameters that the method can accept. It can be empty if the method does not take any input.
+> - Parameter list contains the input parameters that the method can accept. It can be empty if the method does not take any input.
 
 #### Example:
 
