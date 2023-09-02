@@ -14,13 +14,13 @@ access_modifier return_type method_name (parameter_list) {
 }
 ```
 
-> - Access modifiers specify the level of access to the method. It can be public, private, protected, or default.
+- Access modifiers specify the level of access to the method. It can be public, private, protected, or default.
 
-> - Return type indicates the type of value the method returns. If the method does not return any value, the return type is void.
+- Return type indicates the type of value the method returns. If the method does not return any value, the return type is void.
 
-> - Method name is the name that is used to refer to the method throughout the program.
+- Method name is the name that is used to refer to the method throughout the program.
 
-> - Parameter list contains the input parameters that the method can accept. It can be empty if the method does not take any input.
+- Parameter list contains the input parameters that the method can accept. It can be empty if the method does not take any input.
 
 #### Example:
 
@@ -132,7 +132,23 @@ In this case, the argument is the `int a, int b`. It is passed to the swap metho
 
 ![Call stack](../src/Call-stack.png)
 
-## Get an understanding of method scope
+## Method Overloading and Overriding
+
+> In Java, it is possible to have multiple methods with the same name, but with different parameters or return types. This is known as method overloading.
+
+> Method overriding occurs when a subclass provides a specific implementation for a method that is already defined in its superclass.
+
+> Both method overloading and overriding allow for more flexibility in designing programs and can improve code readability and maintainability.
+
+> When a method is called, the Java Virtual Machine determines which method to execute based on the number, types, and order of the parameters passed to it.
+
+> For example, we can have two methods with the same name, one that takes an integer parameter and another that takes a string parameter. When we call the method with an integer argument, the first method will be executed, and when we call it with a string argument, the second method will be executed.
+
+> Overriding allows subclasses to provide their own implementation of methods inherited from their parent class. This is useful when we want to customize the behavior of a method in a subclass.
+
+##### In summary, method overloading allows us to define multiple methods with the same name but different parameters, while method overriding allows us to provide a specific implementation for a method that is already defined in a superclass.
+
+## Method scope
 
 > In Java, method scope refers to the visibility and accessibility of variables defined within a method. The scope of a variable determines where it can be accessed and manipulated within a program.
 
@@ -160,18 +176,10 @@ public class Example {
 
 In this example, the variable x is declared within the method myMethod() and has a local scope. It can only be accessed within the method and is not visible or accessible in the main() method. When the myMethod() is called, it prints the value of x, which is 10, to the console.
 
-## Method Overloading and Overriding
+#### Method Scope:
 
-> In Java, it is possible to have multiple methods with the same name, but with different parameters or return types. This is known as method overloading.
+[View Code](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/9.0.Functionds-And-Methods/MethodScope.java)
 
-> Method overriding occurs when a subclass provides a specific implementation for a method that is already defined in its superclass.
+#### Block Scope:
 
-> Both method overloading and overriding allow for more flexibility in designing programs and can improve code readability and maintainability.
-
-> When a method is called, the Java Virtual Machine determines which method to execute based on the number, types, and order of the parameters passed to it.
-
-> For example, we can have two methods with the same name, one that takes an integer parameter and another that takes a string parameter. When we call the method with an integer argument, the first method will be executed, and when we call it with a string argument, the second method will be executed.
-
-> Overriding allows subclasses to provide their own implementation of methods inherited from their parent class. This is useful when we want to customize the behavior of a method in a subclass.
-
-##### In summary, method overloading allows us to define multiple methods with the same name but different parameters, while method overriding allows us to provide a specific implementation for a method that is already defined in a superclass.
+[View Code](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/9.0.Functionds-And-Methods/BlockScope.java)
