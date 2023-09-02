@@ -132,7 +132,7 @@ In this case, the argument is the `int a, int b`. It is passed to the swap metho
 
 ![Call stack](../src/Call-stack.png)
 
-## Method Overloading and Overriding
+## Method (Function) Overloading and Overriding
 
 > In Java, it is possible to have multiple methods with the same name, but with different parameters or return types. This is known as method overloading.
 
@@ -145,6 +145,22 @@ In this case, the argument is the `int a, int b`. It is passed to the swap metho
 > For example, we can have two methods with the same name, one that takes an integer parameter and another that takes a string parameter. When we call the method with an integer argument, the first method will be executed, and when we call it with a string argument, the second method will be executed.
 
 > Overriding allows subclasses to provide their own implementation of methods inherited from their parent class. This is useful when we want to customize the behavior of a method in a subclass.
+
+### Polymorphism:
+
+> Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+
+> one of many forms can be achivedd by overloading and overriing.
+
+### Function/Method Overloadding:
+
+> Multiple functions with the same name but ddiffrent parameters.
+
+> Method Overloadidng is same name, same class but diffrent parameters. is called as Method Overloading == early bynddding == compile time polymorphism.
+
+### Function/Method Overriding:
+
+> Method Overriding is same name, same parameters but diffrent class is called as Method Overriding == Late bynding == runtime polymorphism.
 
 ##### In summary, method overloading allows us to define multiple methods with the same name but different parameters, while method overriding allows us to provide a specific implementation for a method that is already defined in a superclass.
 
