@@ -152,11 +152,21 @@ In this case, the argument is the `int a, int b`. It is passed to the swap metho
 
 > one of many forms can be achivedd by overloading and overriing.
 
-### Function/Method Overloadding:
+### Function/Method Overloading:
 
-> Multiple functions with the same name but ddiffrent parameters.
+> Multiple functions with the same name but diffrent parameters.
 
-> Method Overloadidng is same name, same class but diffrent parameters. is called as Method Overloading == early bynddding == compile time polymorphism.
+> Method Overloading is same name, same class but diffrent parameters. is called as Method Overloading == early bynding == compile time polymorphism.
+
+#### Using parameters:
+
+[View code](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/9.0.Functionds-And-Methods/OverloadingUsingPara.java)
+
+#### Using DataType:
+
+[View Code](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/9.0.Functionds-And-Methods/OverloadingUsingDatatype.java)
+
+#### [Check if number is Prime or Not](https://github.com/Vishal-The-Nonpareil/java-guide/blob/main/9.0.Functionds-And-Methods/NumisPrimeOrNot.java)
 
 ### Function/Method Overriding:
 
